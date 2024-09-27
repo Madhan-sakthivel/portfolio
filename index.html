@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d1db51cc43.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <iframe class="background-iframe" src="value.html"></iframe>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logom.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <div class="hai">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Madhan</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about  -->
+     <div id="about">
+        <div class="container">
+            <!-- <div class="row"> -->
+                <div class="about-col-1">
+                    <!-- <img src="images/user.png"> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an enthusiastic individual who is excited about 
+                        learning new things and aspire to 
+                        become a skilled software engineer.
+                         I am a good communicator and a 
+                         strategic thinker, capable of coming 
+                         up with solutions to problems. I 
+                         take action without expecting 
+                         immediate results. I can work well 
+                         as a team player when needed, but I 
+                         am also able to make independent decisions that benefit the organization I work for.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-content active-tab" id="skills">
+                                <ul>
+                                    <li><span>Frontend Development</span><br>HTML,CSS</li>
+                                    <li><span>Language</span><br>C/C++,Javascript</li>
+                                    <li><span>Backend Development</span><br>Mysql</li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="education">
+                                <ul>
+                                    <li><span>B.E - ECE</span><br>Dr Mahalingam College of Engineering and Technology, Pollachi,<br>CGPA : 8.39.</li>
+                                    <li><span>HSC</span><br>K.S.R Matric Higher Secondary School, Tiruchengode,<br>Percentage : 90%.</li>
+                                    <li><span>SSLC</span><br>K.S.R Matric Higher Secondary School, Tiruchengode,<br>Percentage : 88%.</li>
+                                </ul>
+                            </div>
+                </div>
+            <!-- </div> -->
+        </div>
+     </div>
+
+     <!-- services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>TIC-TAC-TOE Game</h2>
+                    <p>Developed a web-based Tic-Tac-Toe game using HTML, CSS, and JavaScript, allowing two
+                        players to compete in a simple yet classic strategy game.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Home Automation with Load Scheduling Using IOT</h2>
+                    <p>This project aims to effectively monitor the load current of various consumer electronics and
+                        suggests plan for electricity saving.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>madhansakthivel073@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9344496112</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/madhan-s-9b2592244"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/madhan._.7/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Madhan-sakthivel"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Madhan_073.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright O Madhan. Made with <i class="fa-solid fa-heart"></i> by Bosskey Technology</p>
+        </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
